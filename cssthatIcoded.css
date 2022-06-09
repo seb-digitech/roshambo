@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right, #C357DE, #D6569F);
+}
+.center{
+    position: absolute;
+    width: 50%;
+    min-width: 750px;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background-color: #ffffff;
+    padding: 50px 10px;
+    border-radius: 20px;
+    display: grid;
+    justify-items: center;
+    font-family: 'Poppins',sans-serif;
+}
+h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+input[type="text"]{
+    width:90px;
+    font-weight: 600;
+    color: #663399;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+    border: 2px solid #202020;
+    font-size: 20px;
+}
+button{
+    width: 160px;
+    padding: 15px 0; 
+    border-radius: 5px;
+    color:#ffffff;
+    border:none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    outline: none;
+}
+p{
+    font-weight: 400;
+}
+Button
+{
+width: 170px;
+height:170px;
+display: inline-block;
+align-content: center;
+}
+.button2
+{
+    width: 50px;
+    height: 50px;
+    background-color: #20202000;
+}
+.sham
+{
+    width: 150px;
+    height: 150px;
+}
+.fight
+{
+    width: 200px;
+    height: 50px;
+    border-radius: 15%;
+    background-image: linear-gradient(to right,#FFFF29 ,#FF0000)
+
+}
+.fight:hover
+{
+    background-image: linear-gradient(to left, #FFFF29, #ff0000)
+    
+}
+.self
+{
+    width:220px;
+    height:220px;
+    position: absolute;
+    transform: translate(10%,100%);
+    border-radius: 10px;
+
+}
+.ai
+{
+    width:220px;
+    height:220px;
+    float: right;
+    transform: translate(90%, 100%);
+    border-radius: 10px;
+    
+}
+.score
+{
+    width: 200px;
+    height: 25px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.aiScore
+{
+    float: right;
+    transform: translate(-10%, 50%);
+}
+.playerScore
+{
+    transform: translate(10%, 150%);
+}
